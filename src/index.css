@@ -25,6 +25,14 @@ code {
 input::placeholder {
   text-transform: capitalize;
 }
+.Loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+}
+
 
 .disabled-input {
   background: #eee;
